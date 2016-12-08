@@ -31,7 +31,7 @@ First of all you should create your account in https://satismeter.com
 
 ### Identify user
 
-In your activity inside `onCreate` method call next method:
+Add the following code to the `onCreate` method in your `activity`:
 
 ```Java
 public class MainActivity extends AppCompatActivity {
