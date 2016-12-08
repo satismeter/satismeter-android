@@ -13,7 +13,7 @@ SatisMeter is mobile and web platform for collecting customer feedback, based on
 
 ## Installation
 
-SatisMeter is available through [jcenter](https://bintray.com/satismeterandroid/SatisMeter/SatisMeter) .  jCenter is the default Maven repository used by Android Studio
+SatisMeter is available through [jcenter](https://bintray.com/satismeterandroid/SatisMeter/SatisMeter).  jCenter is the default Maven repository used by Android Studio.
 
 **Installation via Gradle**
 
