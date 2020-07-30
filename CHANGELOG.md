@@ -1,3 +1,8 @@
+# 1.3.0 (July 30, 2020)
+
+## Bug fixes
+- Add gray overlay on top of app user interface when survey is visible
+
 # 1.2.0 (May 20, 2019)
 
 ## New features
