@@ -1,3 +1,11 @@
+# 1.4.0 (Sep 27, 2020)
+
+## New features
+- Don't close survey by clicking outside of the survey
+
+## Bug fixes
+- Show survey in device language
+
 # 1.3.0 (July 30, 2020)
 
 ## Bug fixes
