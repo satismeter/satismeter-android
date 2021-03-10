@@ -1,3 +1,8 @@
+# 1.5.0 (Mar 10, 2021)
+
+## New features
+- Call-to-action on Thank you screen
+
 # 1.4.0 (Sep 27, 2020)
 
 ## New features
