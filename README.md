@@ -20,7 +20,7 @@ SatisMeter is available through [jcenter](https://bintray.com/satismeterandroid/
 Open the `build.gradle` file of your app and find the dependencies block. Add the following line:
 
 ```
-implementation 'com.satismeter:SatisMeter:1.4.0'
+implementation 'com.satismeter:SatisMeter:1.5.0'
 ```
 
 ## Usage
