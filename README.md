@@ -1,6 +1,5 @@
 # SatisMeter Android SDK
 
-[ ![Download](https://api.bintray.com/packages/satismeterandroid/SatisMeter/SatisMeter/images/download.svg) ](https://bintray.com/satismeterandroid/SatisMeter/SatisMeter/_latestVersion)
 [![License](https://img.shields.io/cocoapods/l/SatisMeter.svg?style=flat)](http://cocoapods.org/pods/SatisMeter)
 
 SatisMeter is mobile and web platform for collecting customer feedback, based on Net Promoter Score. This package contains a survey widget that can be easily integrated into any **Android** application.
@@ -13,14 +12,14 @@ SatisMeter is mobile and web platform for collecting customer feedback, based on
 
 ## Installation
 
-SatisMeter is available through [jcenter](https://bintray.com/satismeterandroid/SatisMeter/SatisMeter).  jCenter is the default Maven repository used by Android Studio.
+SatisMeter is available through `mavenCentral()`
 
 **Installation via Gradle**
 
 Open the `build.gradle` file of your app and find the dependencies block. Add the following line:
 
 ```
-implementation 'com.satismeter:SatisMeter:1.5.0'
+implementation 'com.satismeter:satismeter:1.5.1'
 ```
 
 ## Usage
