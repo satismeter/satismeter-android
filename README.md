@@ -32,6 +32,7 @@ First of all you should create your account in https://satismeter.com
 
 Add the following code to the `onCreate` method in your `activity`:
 
+**Java**
 ```Java
 public class MainActivity extends AppCompatActivity {
 
@@ -45,6 +46,30 @@ public class MainActivity extends AppCompatActivity {
         traits.put("createdAt", "1963-08-03T00:00:00.000Z");
 
         SatisMeter.identify(this, "WRITE_KEY", "USER_ID", traits);
+    }
+}
+```
+
+**Kotlin**
+```Kotlin
+package com.satismeter.sample
+
+import android.os.Bundle
+import android.view.View
+import androidx.appcompat.app.AppCompatActivity
+import com.satismeter.SatisMeter
+
+class MainActivity : AppCompatActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_sample)
+        val traits = hashMapOf<String, Any>(
+                "name" to "ames HetfieldX",
+                "email" to "james.hetfield@metallica.com",
+                "createdAt"  to "1963-08-03T00:00:00.000Z"
+        )
+        SatisMeter.identify(this, "WRITE_KEY", "USER_ID", traits)
     }
 }
 ```
