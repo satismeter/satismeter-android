@@ -1,3 +1,8 @@
+# 1.5.2 (May 3, 2021)
+
+## New features
+- Show in-app review prompt to promoters
+
 # 1.5.0 (Mar 10, 2021)
 
 ## New features
